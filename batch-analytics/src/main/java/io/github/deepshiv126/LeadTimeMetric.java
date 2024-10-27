@@ -60,7 +60,7 @@ public class LeadTimeMetric {
         Dataset<Row> leadTimeData = spark.sql(leadTimeQuery);
 
         // 5. Display lead time metrics
-        System.out.println("Lead Time Metrics (Simplified):");
+        System.out.println("Lead Time Metrics :");
         leadTimeData.show();
 
         // 6. Stop Spark session
