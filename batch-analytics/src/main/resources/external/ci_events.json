@@ -1,0 +1,16 @@
+[
+  {
+    "build_id": "BUILD-001",
+    "commit_id": "COMMIT-abc123",
+    "build_start_time": "2024-10-03T12:00:00",
+    "build_end_time": "2024-10-03T12:30:00",
+    "build_status": "Success"
+  },
+  {
+    "build_id": "BUILD-002",
+    "commit_id": "COMMIT-def456",
+    "build_start_time": "2024-10-04T15:00:00",
+    "build_end_time": "2024-10-04T15:25:00",
+    "build_status": "Success"
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "format-version": 1,
+  "table-uuid": "3b072eec-2c5a-42fd-8db3-a3cf7c94f530",
+  "location": "batch-analytics/src/main/resources/iceberg-catalog/customer1/db/GITHUB_EVENTS_T",
+  "last-updated-ms": 1729992210414,
+  "last-column-id": 4,
+  "schema": {
+    "type": "struct",
+    "schema-id": 0,
+    "fields": [
+      {
+        "id": 1,
+        "name": "branch",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 2,
+        "name": "commit_id",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 3,
+        "name": "commit_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 4,
+        "name": "issue_id",
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  "current-schema-id": 0,
+  "schemas": [
+    {
+      "type": "struct",
+      "schema-id": 0,
+      "fields": [
+        {
+          "id": 1,
+          "name": "branch",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 2,
+          "name": "commit_id",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 3,
+          "name": "commit_time",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 4,
+          "name": "issue_id",
+          "required": false,
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "partition-spec": [],
+  "default-spec-id": 0,
+  "partition-specs": [
+    {
+      "spec-id": 0,
+      "fields": []
+    }
+  ],
+  "last-partition-id": 999,
+  "default-sort-order-id": 0,
+  "sort-orders": [
+    {
+      "order-id": 0,
+      "fields": []
+    }
+  ],
+  "properties": {
+    "write.format.default": "parquet"
+  },
+  "current-snapshot-id": -1,
+  "refs": {},
+  "snapshots": [],
+  "statistics": [],
+  "snapshot-log": [],
+  "metadata-log": []
+}

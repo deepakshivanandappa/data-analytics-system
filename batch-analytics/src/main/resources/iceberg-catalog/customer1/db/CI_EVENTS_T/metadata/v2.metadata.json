@@ -1,0 +1,143 @@
+{
+  "format-version": 1,
+  "table-uuid": "fe81e19b-15f3-427b-829a-34ab3fe46745",
+  "location": "batch-analytics/src/main/resources/iceberg-catalog/customer1/db/CI_EVENTS_T",
+  "last-updated-ms": 1729992211358,
+  "last-column-id": 5,
+  "schema": {
+    "type": "struct",
+    "schema-id": 0,
+    "fields": [
+      {
+        "id": 1,
+        "name": "build_end_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 2,
+        "name": "build_id",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 3,
+        "name": "build_start_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 4,
+        "name": "build_status",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 5,
+        "name": "commit_id",
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  "current-schema-id": 0,
+  "schemas": [
+    {
+      "type": "struct",
+      "schema-id": 0,
+      "fields": [
+        {
+          "id": 1,
+          "name": "build_end_time",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 2,
+          "name": "build_id",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 3,
+          "name": "build_start_time",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 4,
+          "name": "build_status",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 5,
+          "name": "commit_id",
+          "required": false,
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "partition-spec": [],
+  "default-spec-id": 0,
+  "partition-specs": [
+    {
+      "spec-id": 0,
+      "fields": []
+    }
+  ],
+  "last-partition-id": 999,
+  "default-sort-order-id": 0,
+  "sort-orders": [
+    {
+      "order-id": 0,
+      "fields": []
+    }
+  ],
+  "properties": {
+    "write.format.default": "parquet"
+  },
+  "current-snapshot-id": 811581034251596673,
+  "refs": {
+    "main": {
+      "snapshot-id": 811581034251596673,
+      "type": "branch"
+    }
+  },
+  "snapshots": [
+    {
+      "snapshot-id": 811581034251596673,
+      "timestamp-ms": 1729992211358,
+      "summary": {
+        "operation": "overwrite",
+        "spark.app.id": "local-1729992203216",
+        "added-data-files": "1",
+        "added-records": "2",
+        "added-files-size": "1810",
+        "changed-partition-count": "1",
+        "total-records": "2",
+        "total-files-size": "1810",
+        "total-data-files": "1",
+        "total-delete-files": "0",
+        "total-position-deletes": "0",
+        "total-equality-deletes": "0"
+      },
+      "manifest-list": "file:/Users/deepakshivanandappa/MyComputer/myCode/myExperiments/lead-time-analytics/batch-analytics/src/main/resources/iceberg-catalog/customer1/db/CI_EVENTS_T/metadata/snap-811581034251596673-1-96360f65-a3e7-4770-b018-cf35a45d14f5.avro",
+      "schema-id": 0
+    }
+  ],
+  "statistics": [],
+  "snapshot-log": [
+    {
+      "timestamp-ms": 1729992211358,
+      "snapshot-id": 811581034251596673
+    }
+  ],
+  "metadata-log": [
+    {
+      "timestamp-ms": 1729992211042,
+      "metadata-file": "file:/Users/deepakshivanandappa/MyComputer/myCode/myExperiments/lead-time-analytics/batch-analytics/src/main/resources/iceberg-catalog/customer1/db/CI_EVENTS_T/metadata/v1.metadata.json"
+    }
+  ]
+}

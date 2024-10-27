@@ -1,0 +1,14 @@
+[
+  {
+    "issue_id": "ISSUE-1001",
+    "issue_created_time": "2024-10-01T10:30:00",
+    "issue_resolved_time": "2024-10-05T12:45:00",
+    "status": "Resolved"
+  },
+  {
+    "issue_id": "ISSUE-1002",
+    "issue_created_time": "2024-10-02T09:00:00",
+    "issue_resolved_time": "2024-10-06T14:15:00",
+    "status": "Resolved"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "commit_id": "COMMIT-abc123",
+    "issue_id": "ISSUE-1001",
+    "commit_time": "2024-10-03T11:45:00",
+    "branch": "feature-1"
+  },
+  {
+    "commit_id": "COMMIT-def456",
+    "issue_id": "ISSUE-1002",
+    "commit_time": "2024-10-04T14:30:00",
+    "branch": "feature-2"
+  }
+]

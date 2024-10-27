@@ -1,0 +1,107 @@
+{
+  "format-version": 1,
+  "table-uuid": "fe81e19b-15f3-427b-829a-34ab3fe46745",
+  "location": "batch-analytics/src/main/resources/iceberg-catalog/customer1/db/CI_EVENTS_T",
+  "last-updated-ms": 1729992211042,
+  "last-column-id": 5,
+  "schema": {
+    "type": "struct",
+    "schema-id": 0,
+    "fields": [
+      {
+        "id": 1,
+        "name": "build_end_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 2,
+        "name": "build_id",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 3,
+        "name": "build_start_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 4,
+        "name": "build_status",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "id": 5,
+        "name": "commit_id",
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  "current-schema-id": 0,
+  "schemas": [
+    {
+      "type": "struct",
+      "schema-id": 0,
+      "fields": [
+        {
+          "id": 1,
+          "name": "build_end_time",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 2,
+          "name": "build_id",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 3,
+          "name": "build_start_time",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 4,
+          "name": "build_status",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "id": 5,
+          "name": "commit_id",
+          "required": false,
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "partition-spec": [],
+  "default-spec-id": 0,
+  "partition-specs": [
+    {
+      "spec-id": 0,
+      "fields": []
+    }
+  ],
+  "last-partition-id": 999,
+  "default-sort-order-id": 0,
+  "sort-orders": [
+    {
+      "order-id": 0,
+      "fields": []
+    }
+  ],
+  "properties": {
+    "write.format.default": "parquet"
+  },
+  "current-snapshot-id": -1,
+  "refs": {},
+  "snapshots": [],
+  "statistics": [],
+  "snapshot-log": [],
+  "metadata-log": []
+}
